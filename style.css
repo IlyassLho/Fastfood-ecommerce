@@ -211,3 +211,84 @@ nav img {
 }
 
 /* section2 End */
+
+/* section3 Start */
+ 
+.titels h2 {
+    color: #AC9A3D;
+    font-weight: 800;
+    font-size: 28px;
+    padding: 1.5rem 0px;
+}
+
+.titels h1 {
+    color: #014F52;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 3rem;
+}
+
+.titels h1::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 530px;
+    height: 3px;
+    background: #014F52;
+    transform: translateX(-5%);
+}
+
+
+.menu {
+    height: 515px;
+    padding: 0px 10px 20px 10px;
+    margin: 10px 10px 40px 10px;
+    transition: 0.7s ease;
+}
+
+.menu .img {
+    display: flex;
+    justify-content: center;
+}
+
+.menus img {
+    width: 320px;
+    height: 320px;
+    transition: 0.7s ease;
+}
+
+.info h4 {
+    color: #014f5200;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.7s ease;
+}
+
+.info p {
+    color: #00000000;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: 0.7s ease;
+}
+
+
+.menu:hover {
+    border-radius: 20px;
+    box-shadow: 0 4px 12px 5px rgba(74, 73, 73, 0.2), 0 6px 20px 0 rgba(74, 74, 74, 0.19);
+}
+
+.menu:hover img {
+    transform: scale(0.9);
+}
+
+.menu:hover h4 {
+    color: #014F52;
+}
+
+.menu:hover p {
+    color: #000;
+}
+
+
+/* section3 End */
