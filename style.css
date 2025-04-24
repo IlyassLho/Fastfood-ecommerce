@@ -292,3 +292,52 @@ nav img {
 
 
 /* section3 End */
+
+/* section4 Start */
+.section4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imgs/bg-img-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section4 .bgcolor{
+    background-color: #AC9A3DB2;
+}
+
+.section4 .title p{
+    font-size: xx-large;
+    padding: 25px 0px;
+    margin: 0%;
+}
+
+.section4 .row .history img{
+    width: 280px;
+    height: 340px;
+    transition: 0.8s ease;
+}
+
+.section4 .row .history .info p{
+    transition: 0.5s ease;
+    color: #014F52;
+}
+
+.section4 .row .history:hover p{
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.section4 .row .history:hover img{
+    transform: scale(1.1);
+}
+
+/* .section4 .row .history i:hover{
+    transform: scale(1.5);
+    font-weight: 700;
+    font-size: x-large;
+    color: #000;
+} */
+
+/* section4 End */
